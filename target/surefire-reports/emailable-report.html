@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">470,388</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">AmztestCASES.AZTC_03LoginWrongCredientials</td><td><a href="#m0">test1</a></td><td rowspan="1">1726635597245</td><td rowspan="1">21126</td></tr><tr class="failedodd"><td rowspan="1">AmztestCASES.AZTC_04Profilemanage</td><td><a href="#m1">Profile</a></td><td rowspan="1">1726635897885</td><td rowspan="1">59946</td></tr><tr class="failedeven"><td rowspan="1">AmztestCASES.AZTC_14RatingPage</td><td><a href="#m2">ratingpage</a></td><td rowspan="1">1726635493021</td><td rowspan="1">52727</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_01NewRegistration</td><td><a href="#m3">testacase02</a></td><td rowspan="1">1726635792277</td><td rowspan="1">15314</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_02LoginCorrectCredientials</td><td><a href="#m4">test1</a></td><td rowspan="1">1726635762846</td><td rowspan="1">25072</td></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_05SearchProduct</td><td><a href="#m5">search</a></td><td rowspan="1">1726635624299</td><td rowspan="1">27498</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_06SearchFilterCategory</td><td><a href="#m6">Scategory</a></td><td rowspan="1">1726635875002</td><td rowspan="1">18201</td></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_06SelectProduct</td><td><a href="#m7">SelectProduct</a></td><td rowspan="1">1726635855957</td><td rowspan="1">11570</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_07ProductDetailsValidatation</td><td><a href="#m8">PDetails</a></td><td rowspan="1">1726635837811</td><td rowspan="1">10391</td></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_08ProductSorting</td><td><a href="#m9">sort</a></td><td rowspan="1">1726635816134</td><td rowspan="1">17360</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_09ProductAddingCart</td><td><a href="#m10">Productpage</a></td><td rowspan="1">1726635676572</td><td rowspan="1">7014</td></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_10UpdatingRemovingproduct</td><td><a href="#m11">TestSenario10</a></td><td rowspan="1">1726635659235</td><td rowspan="1">9414</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_11ValidateCheckoutProcesss</td><td><a href="#m12">Validate</a></td><td rowspan="1">1726635572565</td><td rowspan="1">17258</td></tr><tr class="passedeven"><td rowspan="1">AmztestCASES.AZTC_12PaymentPage</td><td><a href="#m13">payment</a></td><td rowspan="1">1726635690599</td><td rowspan="1">61809</td></tr><tr class="passedodd"><td rowspan="1">AmztestCASES.AZTC_15ReachCart</td><td><a href="#m14">ReachCart</a></td><td rowspan="1">1726635555350</td><td rowspan="1">9196</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">AmztestCASES.AZTC_03LoginWrongCredientials#test1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;[Authentication required]&gt; but was:&lt;[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at AmztestCASES.AZTC_03LoginWrongCredientials.test1(AZTC_03LoginWrongCredientials.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AmztestCASES.AZTC_04Profilemanage#Profile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/slc/hub?disablePicker=1&amp;shoppingAs=1&amp;ref=sl_ph_navpicker&apos;]&quot;}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9438cbd2262e25605e69e6a881b12696, findElement {value=//a[@href=&apos;/slc/hub?disablePicker=1&amp;shoppingAs=1&amp;ref=sl_ph_navpicker&apos;], using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61264/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9438cbd2262e25605e69e6a881b12696
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at AmzSourceFiles.AZ_ManageProfile.Pview(AZ_ManageProfile.java:36)
+	at AmztestCASES.AZTC_04Profilemanage.Profile(AZTC_04Profilemanage.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">AmztestCASES.AZTC_14RatingPage#ratingpage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@id=&apos;Leave-seller-feedback_2&apos;])[1]&quot;}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd31d3e14d4daae7e1b529477ccd4fd1, findElement {value=(//a[@id=&apos;Leave-seller-feedback_2&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59452}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59452/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd31d3e14d4daae7e1b529477ccd4fd1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at AmzSourceFiles.AZ14_RatingPage.review(AZ14_RatingPage.java:33)
+	at AmztestCASES.AZTC_14RatingPage.ratingpage(AZTC_14RatingPage.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">AmztestCASES.AZTC_01NewRegistration#testacase02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">AmztestCASES.AZTC_02LoginCorrectCredientials#test1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">AmztestCASES.AZTC_05SearchProduct#search</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">AmztestCASES.AZTC_06SearchFilterCategory#Scategory</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">AmztestCASES.AZTC_06SelectProduct#SelectProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">AmztestCASES.AZTC_07ProductDetailsValidatation#PDetails</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">AmztestCASES.AZTC_08ProductSorting#sort</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">AmztestCASES.AZTC_09ProductAddingCart#Productpage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">AmztestCASES.AZTC_10UpdatingRemovingproduct#TestSenario10</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">AmztestCASES.AZTC_11ValidateCheckoutProcesss#Validate</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">AmztestCASES.AZTC_12PaymentPage#payment</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">AmztestCASES.AZTC_15ReachCart#ReachCart</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCASE is Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AmztestCASES.AZTC_14RatingPage"/>
+      <class name="AmztestCASES.AZTC_15ReachCart"/>
+      <class name="AmztestCASES.AZTC_11ValidateCheckoutProcesss"/>
+      <class name="AmztestCASES.AZTC_03LoginWrongCredientials"/>
+      <class name="AmztestCASES.AZTC_05SearchProduct"/>
+      <class name="AmztestCASES.AZTC_10UpdatingRemovingproduct"/>
+      <class name="AmztestCASES.AZTC_09ProductAddingCart"/>
+      <class name="AmztestCASES.AZTC_12PaymentPage"/>
+      <class name="AmztestCASES.AZTC_01NewRegistration"/>
+      <class name="AmztestCASES.AZTC_02LoginCorrectCredientials"/>
+      <class name="AmztestCASES.AZTC_08ProductSorting"/>
+      <class name="AmztestCASES.AZTC_07ProductDetailsValidatation"/>
+      <class name="AmztestCASES.AZTC_06SelectProduct"/>
+      <class name="AmztestCASES.AZTC_06SearchFilterCategory"/>
+      <class name="AmztestCASES.AZTC_04Profilemanage"/>
+      <class name="AmztestCASES.Sample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

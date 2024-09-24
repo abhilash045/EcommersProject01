@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestCASE is Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-24T12:48:17 IST" name="Default suite" finished-at="2024-09-24T12:48:59 IST" duration-ms="42670">
+    <groups>
+    </groups>
+    <test started-at="2024-09-24T12:48:17 IST" name="Default test" finished-at="2024-09-24T12:48:59 IST" duration-ms="42670">
+      <class name="AmztestCASES.AZTC_15ReachCart">
+        <test-method is-config="true" signature="AmzLaunch()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:17 IST" name="AmzLaunch" finished-at="2024-09-24T12:48:24 IST" duration-ms="7210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmzLaunch -->
+        <test-method retried="true" signature="ReachCart()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:24 IST" name="ReachCart" finished-at="2024-09-24T12:48:35 IST" duration-ms="11205" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0CT8Q146M%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhI9Gn45P5OhwNhbwBwSGrTDGQhDD9Un7USrl5oHq774fAAAAAGbyZ8UAAAAB%26reviewId%3DR1UID7GGT9GF0H%23R1UID7GGT9GF0H&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=inflex&amp;openid.mode=checkid_setup&amp;marketPlaceId=A21TJRUUN4KGV&amp;language=en&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" data-hook="vote-helpful-button" class="a-button-text" id="a-autoid-57-announce">...</a> is not clickable at point (514, 664). Other element would receive the click: <div class="vjs-poster" tabindex="-1" aria-disabled="false" style="background-image: url(&quot;https://m.media-amazon.com/images/I/51soFNqT9qL._SY256._SY256.jpg&quot;);"></div>
+  (Session info: chrome=129.0.6668.59)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42f82ff5fb7cedeb9fbac3d927708527, clickElement {id=f.E0BA8018693D6EC61541993566517E6D.d.53B64D2BD25F0A725259CC103CCA0B59.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65227/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (42f82ff5fb7cedeb9fbac3d927708527)] -> xpath: (//a[@class='a-button-text'])[1]]
+Session ID: 42f82ff5fb7cedeb9fbac3d927708527]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0CT8Q146M%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhI9Gn45P5OhwNhbwBwSGrTDGQhDD9Un7USrl5oHq774fAAAAAGbyZ8UAAAAB%26reviewId%3DR1UID7GGT9GF0H%23R1UID7GGT9GF0H&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=inflex&amp;openid.mode=checkid_setup&amp;marketPlaceId=A21TJRUUN4KGV&amp;language=en&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" data-hook="vote-helpful-button" class="a-button-text" id="a-autoid-57-announce">...</a> is not clickable at point (514, 664). Other element would receive the click: <div class="vjs-poster" tabindex="-1" aria-disabled="false" style="background-image: url(&quot;https://m.media-amazon.com/images/I/51soFNqT9qL._SY256._SY256.jpg&quot;);"></div>
+  (Session info: chrome=129.0.6668.59)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42f82ff5fb7cedeb9fbac3d927708527, clickElement {id=f.E0BA8018693D6EC61541993566517E6D.d.53B64D2BD25F0A725259CC103CCA0B59.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65227/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (42f82ff5fb7cedeb9fbac3d927708527)] -> xpath: (//a[@class='a-button-text'])[1]]
+Session ID: 42f82ff5fb7cedeb9fbac3d927708527
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at AmzSourceFiles.AMZ15_ReachCart.addcart(AMZ15_ReachCart.java:31)
+at AmztestCASES.AZTC_15ReachCart.ReachCart(AZTC_15ReachCart.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReachCart -->
+        <test-method is-config="true" signature="AmzQuit()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:35 IST" name="AmzQuit" finished-at="2024-09-24T12:48:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmzQuit -->
+        <test-method is-config="true" signature="AmzLaunch()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:35 IST" name="AmzLaunch" finished-at="2024-09-24T12:48:47 IST" duration-ms="12016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmzLaunch -->
+        <test-method signature="ReachCart()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:47 IST" name="ReachCart" finished-at="2024-09-24T12:48:59 IST" duration-ms="11660" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCASE is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ReachCart -->
+        <test-method is-config="true" signature="AmzQuit()[pri:0, instance:AmztestCASES.AZTC_15ReachCart@543588e6]" started-at="2024-09-24T12:48:59 IST" name="AmzQuit" finished-at="2024-09-24T12:48:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmzQuit -->
+      </class> <!-- AmztestCASES.AZTC_15ReachCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
